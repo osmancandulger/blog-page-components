@@ -9,8 +9,10 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   position: relative;
   background: #e5e5e5;
+  transform: scale(0.75);
 }
 
 .first-container {
@@ -83,6 +85,7 @@ body {
       height: 55px;
       border-radius: 50%;
       background-color: #d66892;
+      cursor: pointer;
     }
 
     .last-svg {
@@ -135,6 +138,7 @@ body {
   width: 83px;
   height: 154px;
   background: #f4d16e;
+  cursor: pointer;
 }
 
 .light {
@@ -146,6 +150,7 @@ body {
   width: 153px;
   height: 153px;
   left: 45px;
+  cursor: pointer;
 }
 
 .get-started {
@@ -155,8 +160,10 @@ body {
   justify-content: center;
   width: 257px;
   height: 257px;
+  margin-left: 165px;
   background-color: #d66892;
   color: #ffff;
+  cursor: pointer;
   p {
     font-weight: 400;
     font-size: 20px;
@@ -173,7 +180,7 @@ body {
   height: 441px;
   background: #ffff;
   margin-top: 30px;
-  margin-left: 90px;
+  margin-left: 70px;
   .text {
     display: flex;
     position: relative;
@@ -201,10 +208,11 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
     .icons {
       display: flex;
       position: relative;
-      margin-left: 110px;
+      margin-left: 80px;
     }
     .button {
       display: flex;
@@ -213,6 +221,89 @@ body {
       width: 114px;
       height: 114px;
       background-color: #d66892;
+      cursor: pointer;
+    }
+  }
+}
+
+.container1 {
+  display: flex;
+  width: 100%;
+  margin-top: -65px;
+}
+.footer-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 30px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 702px;
+  height: 404px;
+  background: #ffff;
+  .content {
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    right: 82px;
+  }
+
+  .section {
+    p:first-child {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.41px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .section2 {
+    margin-left: 30px;
+    p:first-child {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.41px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .subscribe-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    width: 100%;
+    height: 114px;
+    background: #303864;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 23.44px;
+      color: #ffff;
+    }
+    .last-button {
+      display: flex;
+      width: 114px;
+      height: 114px;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4d16e;
+      right: 0px;
+      cursor: pointer;
     }
   }
 }
