@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ddd;
+}
+
+.docker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 35px;
+  width: 540px;
+  height: 230px;
+  background-color: #ffff;
+  border-radius: 5px;
+}
+
+.docker .text {
+  margin: 83px 0 0 70px;
+}
+
+.docker .text h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.docker .text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  width: 236px;
+  margin-top: 15px;
+}
+
+.docker .numbers {
+  position: absolute;
+  right: 0px;
+  margin: 40px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  opacity: 0.5;
+}
+
+.docker .navigation-buttons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95px;
+  height: 55px;
+}
+
+.docker .navigation-buttons .bg-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #d66892;
+}
+
+.docker .navigation-buttons .last-svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
